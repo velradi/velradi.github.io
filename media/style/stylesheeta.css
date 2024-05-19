@@ -1,0 +1,248 @@
+
+/* Base styles */
+body {
+  background-image: url('../images/background_main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+  /* Navigation bar styles for smaller screens */
+  .nav1 {
+      background-color: #333;
+      padding: 14px 16px;
+  }
+  .nav1 ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .nav1 li {
+      margin: 0px 10px;
+  }
+  .nav1 a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+  }
+  .nav1 a:hover {
+      background-color: white;
+      color: #333;
+  }
+
+  /* Navigation bar styles for smaller screens */
+  .nav2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+  }
+  .nav2 ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .nav2 li {
+      margin: 0px 10px;
+  }
+  .nav2 li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .nav2 li a:hover {
+      background-color: #111;
+  }
+}
+
+/* Media query for screens larger than 600px */
+@media (min-width: 601px) {
+  body {
+      font-size: 18px;
+  }
+  /* Navigation bar styles for larger screens */
+  .nav1 {
+      background-color: #333;
+      padding: 14px 16px;
+  }
+  .nav1 ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .nav1 li {
+      margin: 0px 10px;
+  }
+  .nav1 a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+  }
+  .nav1 a:hover {
+      background-color: white;
+      color: #333;
+  }
+
+  /* Navigation bar styles for larger screens */
+  .nav2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 14px 16px;
+      overflow: hidden;
+      background-color: #333333;
+  }
+  .nav2 ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .nav2 li {
+      margin: 0px 10px;
+  }
+  .nav2 li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .nav2 li a:hover {
+      background-color: #111;
+  }
+}
+
+/* Other styles */
+.hidden {
+  display: none;
+}
+
+.titles {
+  color:  #CBC4C4;
+  background-color: #595959;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px;
+  margin: 0;
+  border: none;
+}
+
+
+/*Style for the password entry field on the main.html */
+.password-form {
+    text-align: right; /* Align the contents to the right */
+  }
+.password-form input[type="password"],
+.password-form button {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove the border */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 4px; /* Add border radius for rounded corners */
+}
+
+.password-form button {
+    cursor: pointer; /* Set cursor to pointer for button */
+}
+
+
+/*Text colour, for dark backgrounds*/
+.text {
+  color:#CBC4C4;
+}
+
+/*Text class to add a black background to the text added*/
+
+.texte {
+    display: inline-block; /* Display as inline-block */
+    background-color: #333; /* Background color (in this case, red) */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin around the box */
+    border: none; /* Remove the border */
+    text-align: center;
+    color:#CBC4C4;
+  }
+
+
+.list li {
+  list-style-type: none;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.listv li {
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+  }
+
+body.asirion {
+background-image: url('../images/asirion_backdrop.png');
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+}
+
+body.etchfield {
+  background-image: url('../images/etchfield_backdrop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body.sinthalor {
+    background-image: url('../images/sinthalor_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+body.verdius {
+    background-image: url('../images/verdius_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
