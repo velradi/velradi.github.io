@@ -53,6 +53,7 @@ function checkPassword() {
      else {
     // Display an error message or take other action
     alert("Are you sure you should be accessing this?");
+    return; // Exit the function
   }
   
     // Check if the entered password matches the correct password
@@ -94,7 +95,7 @@ function checkPassword() {
         }
     }
 
-
+  {
 // Check if the password numbers were previously entered correctly
 window.onload = function() {
   var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
@@ -103,4 +104,4 @@ window.onload = function() {
       var hiddenLinksId = "hiddenLinks" + passwordNumber;
       document.getElementById(hiddenLinksId).style.display = "block";
   });
-};
+};}
