@@ -30,21 +30,18 @@ window.addEventListener('DOMContentLoaded', function() {
 // Password button for main.html //
 
 function checkPassword() {
-  var password = document.getElementById("passwordInput").value;
-  var correctPassword;
-  var passwordNumber; // Variable to determine which password is correct
+    var password = document.getElementById("passwordInput").value;
+    var correctPassword;
+    var passwordNumber; // Variable to determine which password is correct
 
-  // Determine the correct password based on some condition
-  // Replace placeholders with actual conditions or expressions
-
-  if (password === "vz611") {
+    // Determine the correct password based on some condition
+    // Replace placeholders with actual conditions or expressions
+  
+    if (password === "vz611") {
+      correctPassword = "vz611";
       var someCondition = true; // Replace this with the actual condition
       if (someCondition) {
-          correctPassword = "vz611";
           passwordNumber = 1; // Set password number to 1
-      } else {
-          correctPassword = "vz611"; // Assuming "vz611" is correct if someCondition is false
-          passwordNumber = 4; // Set password number to 4
       }
   } else if (password === "c3112") {
       correctPassword = "c3112";
@@ -52,10 +49,14 @@ function checkPassword() {
   } else if (password === "t41190") {
       correctPassword = "t41190";
       passwordNumber = 3; // Set password number to 3
+  } else if (password === "vz611") {
+      correctPassword = "vz611";
+      passwordNumber = 4; // Set password number to 4
   }
-
-  // Check if the entered password matches the correct password
-  if (password === correctPassword) {
+    
+  
+    // Check if the entered password matches the correct password
+    if (password === correctPassword) {
       // Show the hidden links based on the determined password number
       var hiddenLinksId = "hiddenLinks" + passwordNumber;
       document.getElementById(hiddenLinksId).style.display = "block";
@@ -65,16 +66,16 @@ function checkPassword() {
 
       // Check if the password number is not already in the array before adding it
       if (!storedPasswordNumbers.includes(passwordNumber)) {
-          // Add the password number to the array
-          storedPasswordNumbers.push(passwordNumber);
+        // Add the password number to the array
+        storedPasswordNumbers.push(passwordNumber);
 
-          // Save the updated array back to localStorage
-          localStorage.setItem("passwordNumbers", JSON.stringify(storedPasswordNumbers));
+        // Save the updated array back to localStorage
+        localStorage.setItem("passwordNumbers", JSON.stringify(storedPasswordNumbers));
       }
-  } else {
+    } else {
       // Display an error message or take other action
       alert("Are you sure you should be accessing this?");
-  }
+    }
 }
 
 // Check if the password numbers were previously entered correctly
