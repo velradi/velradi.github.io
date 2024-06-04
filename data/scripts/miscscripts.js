@@ -50,6 +50,11 @@ function checkPassword() {
         correctPassword = "vz633";
         passwordNumber = 4; // Set password number to 4
     }
+     else {
+    // Display an error message or take other action
+    alert("Are you sure you should be accessing this?");
+    return; // Exit the function
+  }
   
     // Check if the entered password matches the correct password
     if (password === correctPassword) {
@@ -68,11 +73,8 @@ function checkPassword() {
         // Save the updated array back to localStorage
         localStorage.setItem("passwordNumbers", JSON.stringify(storedPasswordNumbers));
       }
-    } else {
-      // Display an error message or take other action
-      alert("Are you sure you should be accessing this?");
-    }
-}
+
+} }
 
 // Check if the password numbers were previously entered correctly
 window.onload = function() {
