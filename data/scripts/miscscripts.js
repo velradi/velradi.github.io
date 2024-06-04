@@ -98,10 +98,10 @@ function checkPassword() {
 
 // Check if the password numbers were previously entered correctly
 window.onload = function() {
-    var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
-    storedPasswordNumbers.forEach(function(passwordNumber) {
-        // Show the hidden links based on the stored password numbers
-        var hiddenLinksId = "hiddenLinks" + passwordNumber;
-        document.getElementById(hiddenLinksId).style.display = "block";
-    });
+  var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
+  storedPasswordNumbers.forEach(function(passwordNumber) {
+      // Show the hidden links based on the stored password numbers
+      var hiddenLinksId = "hiddenLinks" + passwordNumber;
+      document.getElementById(hiddenLinksId).style.display = "block";
+  });
 };
