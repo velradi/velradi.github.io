@@ -53,7 +53,6 @@ function checkPassword() {
      else {
     // Display an error message or take other action
     alert("Are you sure you should be accessing this?");
-    return; // Exit the function
   }
   
     // Check if the entered password matches the correct password
