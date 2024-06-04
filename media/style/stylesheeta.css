@@ -186,14 +186,11 @@ body {
   display: inline-block; /* Display as inline-block */
   background-color: #333; /* Background color (in this case, red) */
   padding: 20px; /* Padding inside the box */
-  margin: 20px; /* Margin around the box */
-  border: none; /* Remove the border */
+  border: 1px solid #ffffff;
+  margin: 20px 0 10px; /* Margin around the box: 20px on top and bottom, 0 on the sides */
   text-align: left;
   color:#CBC4C4;
   list-style-type: none;
-  border: 1px solid #ffffff;
-  padding: 10px;
-  margin-bottom: 10px;
 }
 
 .list li {
