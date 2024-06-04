@@ -76,12 +76,32 @@ function checkPassword() {
 
 } }
 
+    // Check if the entered password matches the correct password
+    if (password === correctPassword) {
+        // Show the hidden links based on the determined password number
+        var hiddenLinksId = "hiddenLinks" + passwordNumber;
+        document.getElementById(hiddenLinksId).style.display = "block";
+
+        // Retrieve the existing password numbers array from localStorage
+        var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
+
+        // Check if the password number is not already in the array before adding it
+        if (!storedPasswordNumbers.includes(passwordNumber)) {
+            // Add the password number to the array
+            storedPasswordNumbers.push(passwordNumber);
+
+            // Save the updated array back to localStorage
+            localStorage.setItem("passwordNumbers", JSON.stringify(storedPasswordNumbers));
+        }
+    }
+
+
 // Check if the password numbers were previously entered correctly
 window.onload = function() {
-  var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
-  storedPasswordNumbers.forEach(function(passwordNumber) {
-    // Show the hidden links based on the stored password numbers
-    var hiddenLinksId = "hiddenLinks" + passwordNumber;
-    document.getElementById(hiddenLinksId).style.display = "block";
-  });
+    var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
+    storedPasswordNumbers.forEach(function(passwordNumber) {
+        // Show the hidden links based on the stored password numbers
+        var hiddenLinksId = "hiddenLinks" + passwordNumber;
+        document.getElementById(hiddenLinksId).style.display = "block";
+    });
 };
