@@ -133,6 +133,13 @@ body {
   display: none;
 }
 
+#hiddenLinks1 {
+    background-color: #333; /* Background color for the entire text block */
+    padding: 20px; /* Padding inside the container */
+    color: #CBC4C4; /* Text color */
+
+}
+
 .titles {
   color:  #CBC4C4;
   background-color: #595959;
@@ -200,11 +207,7 @@ body {
   margin-bottom: 10px;
 }
 
-.list-container {
-    background-color: #333; /* Background color for the entire text block */
-    padding: 20px; /* Padding inside the container */
-    color: #CBC4C4; /* Text color */
-  }
+
   
 .listv {
     list-style-type: none; /* Remove list bullets */
