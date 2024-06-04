@@ -95,7 +95,7 @@ function checkPassword() {
         }
     }
 
-  {
+  
 // Check if the password numbers were previously entered correctly
 window.onload = function() {
   var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
@@ -104,4 +104,4 @@ window.onload = function() {
       var hiddenLinksId = "hiddenLinks" + passwordNumber;
       document.getElementById(hiddenLinksId).style.display = "block";
   });
-};}
+};
