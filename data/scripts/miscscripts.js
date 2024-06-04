@@ -36,16 +36,24 @@ function checkPassword() {
 
     // Determine the correct password based on some condition
     // Replace placeholders with actual conditions or expressions
+  
     if (password === "vz611") {
       correctPassword = "vz611";
-      passwordNumber = 1; // Set password number to 1
-    } else if (password === "c3112") {
+      var someCondition = true; // Replace this with the actual condition
+      if (someCondition) {
+        passwordNumber = 1; // Set password number to 1
+      } else {
+        passwordNumber = 4; // Set password number to 4
+      }
+    }
+    else if (password === "c3112") {
       correctPassword = "c3112";
       passwordNumber = 2; // Set password number to 2
     } else if (password === "t41190") {
       correctPassword = "t41190";
       passwordNumber = 3; // Set password number to 3
     }
+    
   
     // Check if the entered password matches the correct password
     if (password === correctPassword) {
