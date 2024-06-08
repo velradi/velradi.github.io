@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Password button for main.html //
+// Password button for main.html and certain characters //
 
 function checkPassword() {
     var password = document.getElementById("passwordInput").value;
