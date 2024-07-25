@@ -240,7 +240,7 @@ body {
     color: inherit; /* Inherit text color from the container */
   }
 
-.listn {
+#partial-links {
     background-color: #333; /* Background color for the entire text block */
     padding: 20px; /* Padding inside the container */
     color: #CBC4C4; /* Text color */
