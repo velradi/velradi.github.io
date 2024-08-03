@@ -94,7 +94,7 @@ window.onload = function() {
 
 
 
-// Navigation bar code
+// Navigation bar code (BROKEN)
 
 document.addEventListener("DOMContentLoaded", function() {
   function loadComponent(elementId, filePath, callback) {
