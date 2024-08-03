@@ -87,3 +87,37 @@ window.onload = function() {
       document.getElementById(hiddenLinksId).style.display = "block";
   });
 };
+
+
+
+
+
+
+
+// Navigation bar code
+
+document.addEventListener("DOMContentLoaded", function() {
+  function loadComponent(elementId, filePath, callback) {
+    fetch(filePath)
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById(elementId).innerHTML = data;
+        if (callback) callback();
+      });
+  }
+
+  function hideCurrentPageLink() {
+    const currentPage = window.location.pathname.split('/').pop().split('.').shift();
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(link => {
+      if (link.dataset.page === currentPage) {
+        link.style.display = 'none';
+      }
+    });
+  }
+
+  // Load components
+  loadComponent('navbar-e', '../assets/navbar.html', hideCurrentPageLink);
+  loadComponent('footer-placeholder', 'footer.html');
+  // Add more components as needed
+});
