@@ -123,6 +123,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Load components with correct paths
-  loadComponent('navbar_etchfield', '../assets/navbar-e.html', hideCurrentPageLink);
+  loadComponent('navbar_etchfield', 'navbar-e.html', hideCurrentPageLink);
   loadComponent('footer-placeholder', '../assets/footer.html');
 });
