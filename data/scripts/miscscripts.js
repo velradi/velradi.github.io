@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Load components
-  loadComponent('navbar_etchfield', '../assets/navbar-e.html', hideCurrentPageLink);
+  loadComponent('navbar_etchfield', 'assets/navbar-e.html', hideCurrentPageLink);
   loadComponent('footer-placeholder', 'footer.html');
   // Add more components as needed
 });
