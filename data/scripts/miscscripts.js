@@ -99,17 +99,11 @@ window.onload = function() {
 document.addEventListener("DOMContentLoaded", function() {
   function loadComponent(elementId, filePath, callback) {
     fetch(filePath)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.text();
-      })
+      .then(response => response.text())
       .then(data => {
         document.getElementById(elementId).innerHTML = data;
         if (callback) callback();
-      })
-      .catch(error => console.error('There was a problem with the fetch operation:', error));
+      });
   }
 
   function hideCurrentPageLink() {
@@ -123,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Load components with correct paths
-  loadComponent('navbar_etchfield', '../assets/navbar-e.html');
-  loadComponent('footer-placeholder', '../assets/footer.html');
+  loadComponent('navbar_etchfield', '../assets/navbar-e.html', hideCurrentPageLink);
+  loadComponent('footer-placeholder', '../components/footer.html');
+  // Add more components as needed
 });
