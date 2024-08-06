@@ -283,6 +283,13 @@ body.azeroth {
     background-size: 100% 100%;
 }
 
+body.verdial {
+    background-image: url('../images/verdial_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 
 
 
