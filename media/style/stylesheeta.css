@@ -312,6 +312,14 @@ body.verdial {
 }
 
 
+body.nverdial {
+    background-image: url('../images/nverdial_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
 
 
 
