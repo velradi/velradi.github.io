@@ -19,7 +19,7 @@ body {
   .nav1 {
       background-color: #333;
       padding: 14px 16px;
-      background-color: rgba(51, 51, 51, 0.8); /* 0.8 is the alpha value for 80% opacity */
+      background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
   }
   .nav1 ul {
       list-style-type: none;
@@ -78,7 +78,7 @@ body {
   /* Navigation bar styles for larger screens */
   .nav1 {
       background-color: #333;
-      background-color: rgba(51, 51, 51, 0.8); /* 0.8 is the alpha value for 80% opacity */
+      background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
       padding: 14px 16px;
   }
   .nav1 ul {
@@ -136,7 +136,7 @@ body {
 }
 
 .hiddenLinks {
-    background-color: rgba(51, 51, 51, 0.8); /* 0.8 is the alpha value for 80% opacity */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px;
     border-radius: 5px;
     margin: 10px 0;
