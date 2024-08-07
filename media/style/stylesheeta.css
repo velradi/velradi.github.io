@@ -290,6 +290,13 @@ body.verdius {
     background-size: 100% 100%;
 }
 
+body.nverdius {
+    background-image: url('../images/nverdius_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 body.azeroth {
     background-image: url('../images/azeroth_backdrop.jpg');
     background-repeat: no-repeat;
