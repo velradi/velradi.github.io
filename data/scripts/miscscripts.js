@@ -49,7 +49,12 @@ function checkPassword() {
       else if (password === "vz633") {
         correctPassword = "vz633";
         passwordNumber = 4; // Set password number to 4
-    }
+    } 
+      
+      else if (password === "vz633") {
+        correctPassword = "vz633";
+        passwordNumber = 5; // Set password number to 5
+}
      else {
     // Display an error message or take other action
     alert("Are you sure you should be accessing this?");
