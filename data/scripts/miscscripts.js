@@ -46,8 +46,8 @@ function checkPassword() {
       correctPassword = "t41190";
       passwordNumber = 3; // Set password number to 3
     }
-      else if (password === "vz633") {
-        correctPassword = "vz633";
+      else if (password === "vz644") {
+        correctPassword = "vz644";
         passwordNumber = 4; // Set password number to 4
     } 
       
