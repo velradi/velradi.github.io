@@ -197,8 +197,8 @@ body {
 .texte {
     display: inline-block; /* Display as inline-block */
     background-color: rgba(51, 51, 51, 0.6); /* 0.8 is the alpha value for 80% opacity */
-    padding: 20px; /* Padding inside the box */
-    margin: 20px; /* Margin around the box */
+    margin: 0;
+    padding: 0;
     border: none; /* Remove the border */
     text-align: center;
     color:#CBC4C4;
