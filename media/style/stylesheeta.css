@@ -17,7 +17,6 @@ body {
   }
   /* Navigation bar styles for smaller screens */
   .nav1 {
-      background-color: #333;
       padding: 14px 16px;
       background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
   }
@@ -77,7 +76,6 @@ body {
   }
   /* Navigation bar styles for larger screens */
   .nav1 {
-      background-color: #333;
       background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
       padding: 14px 16px;
   }
@@ -143,7 +141,7 @@ body {
 }
 
 #hiddenLinks4 {
-    background-color: #333; /* Background color for the entire text block */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px; /* Padding inside the container */
     color: #CBC4C4; /* Text color */
 
@@ -151,7 +149,7 @@ body {
 
 
 .ltext {
-    background-color: #333; /* Background color for the entire text block */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px; /* Padding inside the container */
     color: #CBC4C4; /* Text color */
 
@@ -159,7 +157,7 @@ body {
 
 .titles {
   color:  #CBC4C4;
-  background-color: #595959de;
+  background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -177,7 +175,7 @@ body {
   }
 .password-form input[type="password"],
 .password-form button {
-    background-color: black; /* Set the background color to black */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     color: white; /* Set the text color to white */
     border: none; /* Remove the border */
     padding: 8px 16px; /* Adjust padding as needed */
@@ -198,7 +196,7 @@ body {
 
 .texte {
     display: inline-block; /* Display as inline-block */
-    background-color: #333333d8; /* Background color (in this case, red) */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px; /* Padding inside the box */
     margin: 20px; /* Margin around the box */
     border: none; /* Remove the border */
@@ -208,7 +206,7 @@ body {
 
 .textl {
   display: inline-block; /* Display as inline-block */
-  background-color: #333; /* Background color (in this case, red) */
+  background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
   padding: 20px; /* Padding inside the box */
   border: 1px solid #ffffff;
   margin: 20px 0 10px; /* Margin around the box: 20px on top and bottom, 0 on the sides */
@@ -220,7 +218,7 @@ body {
 .textp {
     list-style-type: none;
     margin-bottom: 10px;
-    background-color: #333; /* Background color for the entire text block */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px; /* Padding inside the container */
     color: #CBC4C4; /* Text color */
     
@@ -250,7 +248,7 @@ body {
   }
 
 #partial-links {
-    background-color: #333; /* Background color for the entire text block */
+    background-color: rgba(51, 51, 51, 0.5); /* 0.8 is the alpha value for 80% opacity */
     padding: 20px; /* Padding inside the container */
     color: #CBC4C4; /* Text color */
     
