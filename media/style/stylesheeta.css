@@ -47,7 +47,7 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: rgba(51, 51, 51, 0.8);
+      background-color: #333333;
   }
   .nav2 ul {
       list-style: none;
@@ -106,7 +106,7 @@ body {
       margin: 0;
       padding: 14px 16px;
       overflow: hidden;
-      background-color: #333333;
+      background-color: rgba(51, 51, 51, 0.8);
   }
   .nav2 ul {
       list-style: none;
