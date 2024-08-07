@@ -198,7 +198,7 @@ body {
 
 .texte {
     display: inline-block; /* Display as inline-block */
-    background-color: #333; /* Background color (in this case, red) */
+    background-color: #333333e3; /* Background color (in this case, red) */
     padding: 20px; /* Padding inside the box */
     margin: 20px; /* Margin around the box */
     border: none; /* Remove the border */
