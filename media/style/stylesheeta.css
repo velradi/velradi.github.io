@@ -319,6 +319,41 @@ body.nverdial {
     background-size: 100% 100%;
 }
 
+body.etheirys {
+    background-image: url('../images/etheirys_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body.pantheon {
+    background-image: url('../images/pantheon_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+body.earth {
+    background-image: url('../images/earth_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body.osira {
+    background-image: url('../images/osira_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body.solaris {
+    background-image: url('../images/solaris_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 
 
