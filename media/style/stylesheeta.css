@@ -254,6 +254,8 @@ body {
     
 }
 
+
+/* Background for main page */
 body.main {
     background-image: url('../images/main_backdrop.jpg');
     background-repeat: no-repeat;
@@ -261,8 +263,9 @@ body.main {
     background-size: 100% 100%;
 }
 
-body.asirion {
-background-image: url('../images/asirion_backdrop.png');
+/*Background for Asirion Profile*/
+body.oou {
+background-image: url('../images/oou_backdrop.png');
 background-repeat: no-repeat;
 background-attachment: fixed; 
 background-size: 100% 100%;
