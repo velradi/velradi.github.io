@@ -131,19 +131,19 @@ body {
 
 /*Hyperlink colour change*/
 a:not(.nav1 a):not(.nav2 a):not(.nav3 a):link {
-    color: rgb(89, 255, 47); /* Your desired color */
+    color: rgb(89, 255, 47); /* Colour Changer*/
     background-color: transparent;
     text-decoration: none;
 }
 
 a:not(.nav1 a):not(.nav2 a):not(.nav3 a):visited {
-    color: rgb(0, 255, 115);
+    color: rgb(0, 255, 115);/* Colour Changer*/
     background-color: transparent;
     text-decoration: none;
 }
 
 a:not(.nav1 a):not(.nav2 a):not(.nav3 a):active {
-    color: yellow;
+    color: rgb(255, 255, 0);/* Colour Changer*/
     background-color: transparent;
 }
 
