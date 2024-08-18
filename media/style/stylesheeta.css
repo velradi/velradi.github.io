@@ -257,6 +257,7 @@ a:not(.nav1 a):not(.nav2 a):not(.nav3 a):active {
     list-style-type: none; /* Remove list bullets */
     padding: 0; /* Remove default padding */
     margin: 0; /* Remove default margin */
+    box-sizing: border-box;
   }
   
 .listv li {
