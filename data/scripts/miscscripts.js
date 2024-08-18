@@ -37,22 +37,22 @@ function checkPassword() {
     // Determine the correct password based on some condition
     // Replace placeholders with actual conditions or expressions
     if (password === "vz611") {
-      correctPassword = "vz611";
+      correctPassword = "vz611"; // Worlds password
       passwordNumber = 1; // Set password number to 1
     } else if (password === "c3112") {
-      correctPassword = "c3112";
+      correctPassword = "c3112"; // Characters password
       passwordNumber = 2; // Set password number to 2
     } else if (password === "t41190") {
-      correctPassword = "t41190";
+      correctPassword = "t41190"; // Family Trees password
       passwordNumber = 3; // Set password number to 3
     }
       else if (password === "vz644") {
-        correctPassword = "vz644";
-        passwordNumber = 4; // Set password number to 4
+        correctPassword = "vz644"; // Verdial Profiles password
+        passwordNumber = 4; // Set password number to 4  // 
     } 
       
       else if (password === "vz633") {
-        correctPassword = "vz633";
+        correctPassword = "vz633"; // Universe Password
         passwordNumber = 5; // Set password number to 5
 }
      else {
