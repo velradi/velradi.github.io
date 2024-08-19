@@ -81,15 +81,21 @@ function checkPassword() {
 
 } }
 
-
-  
-// Check if the password numbers were previously entered correctly
 window.onload = function() {
+  // Retrieve the stored password numbers from localStorage
   var storedPasswordNumbers = JSON.parse(localStorage.getItem("passwordNumbers")) || [];
+
+  // Loop through each stored password number
   storedPasswordNumbers.forEach(function(passwordNumber) {
-      // Show the hidden links based on the stored password numbers
+      // Construct the ID for the hidden links
       var hiddenLinksId = "hiddenLinks" + passwordNumber;
-      document.getElementById(hiddenLinksId).style.display = "block";
+
+      // Check if the element with the constructed ID exists on the page
+      var hiddenLinksElement = document.getElementById(hiddenLinksId);
+      if (hiddenLinksElement) {
+          // Show the hidden links if the element exists
+          hiddenLinksElement.style.display = "block";
+      }
   });
 };
 
