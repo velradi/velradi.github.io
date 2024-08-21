@@ -147,11 +147,11 @@ a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.rline a):active {
     background-color: transparent;
 }
 
-.rline a {
+.rline a { /*Hyperlink style for the royal-line.html*/
     color:#CBC4C4;
     background-color: transparent;
     text-decoration: none;
-    font-weight: bold;
+    font-style: italic;
 }
 .rline a :link{
     color:#CBC4C4;
