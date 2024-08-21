@@ -130,19 +130,19 @@ body {
 
 
 /*Hyperlink colour change*/
-a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv):link {
+a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv a):link {
     color: rgb(89, 255, 47); /* Colour Changer*/
     background-color: transparent;
     text-decoration: none;
 }
 
-a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv):visited {
+a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv a):visited {
     color: rgb(0, 255, 115);/* Colour Changer*/
     background-color: transparent;
     text-decoration: none;
 }
 
-a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv):active {
+a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.listv a):active {
     color: rgb(255, 255, 0);/* Colour Changer*/
     background-color: transparent;
 }
