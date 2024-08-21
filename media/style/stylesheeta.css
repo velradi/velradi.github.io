@@ -151,6 +151,7 @@ a:not(.nav1 a):not(.nav2 a):not(.nav3 a):not(.rline a):active {
     color:#CBC4C4;
     background-color: transparent;
     text-decoration: none;
+    font-weight: bold;
 }
 .rline a :link{
     color:#CBC4C4;
